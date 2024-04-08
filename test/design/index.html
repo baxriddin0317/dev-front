@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS rules are kept repetitive so that you can get CSS rules for each button easily :) */
+
+
+
+.toggle-button-cover
+{
+    display: table-cell;
+    position: relative;
+    width: 200px;
+    height: 140px;
+    box-sizing: border-box;
+}
+
+#subs .button-cover
+{
+    height: 100px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px -8px #c5d6d6;
+    border-radius: 4px;
+}
+
+#subs .button-cover:before
+{
+    counter-increment: button-counter;
+    content: counter(button-counter);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #b7caca;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px;
+}
+
+#subs .button-cover, .knobs, .layer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#subs .button
+{
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+}
+
+#subs .button.r, .button.r .layer
+{
+    border-radius: 100px;
+}
+
+#subs .button.b2
+{
+    border-radius: 2px;
+}
+
+#subs .checkbox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#subs .knobs
+{
+    z-index: 2;
+}
+
+#subs .layer
+{
+    width: 100%;
+    background-color: #ebf7fc;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+
+
+/* Button 16 */
+#button-16 .knobs:before
+{
+    content: 'Subscription';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding: 9px 4px;
+    background-color: #03A9F4;
+    border-radius: 2px;
+    transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
+}
+
+#button-16 .checkbox:active + .knobs:before
+{
+    width: 46px;
+}
+
+#button-16 .checkbox:checked:active + .knobs:before
+{
+    margin-left: -26px;
+}
+
+#button-16 .checkbox:checked + .knobs:before
+{
+    content: 'History';
+    left: 42px;
+    background-color: #F44336;
+}
+
+#button-16 .checkbox:checked ~ .layer
+{
+    background-color: #fcebeb;
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+   
+      
+
+    <script>
+        var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+    type: "OFFLINE",
+    totalAmount: "20.00",
+    currency: "USD",
+    wallets: {
+      evm: "0xB6aC943BB1f3BEb33e92B9819BC81557d4f92ECe",
+      tron: "TJTED4hrj1EnrfaTdRrdPH7wB7C7rYm9ap",
+    },
+    src: "OfflinePayment",
+    returnUrl: "https://pay.just.money/thankyou",
+    statusHookUrl: null,
+    tokenToReceive: "USDT",
+    language: "en",
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("https://api-pay.just.money/v1/checkout/newOrder", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+    </script>
+        
+      
+</body>
+</html>

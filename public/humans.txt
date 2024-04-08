@@ -1,0 +1,11 @@
+/* TEAM */
+    The project has been developed by the contribution of the following people
+
+	github.com/BigDealCompany
+	github.com/ParthaDhar
+	github.com/qadirpervez
+	github.com/SwapanKR
+	github.com/Manntrix
+	github.com/joseftaha
+
+/* THANKS */

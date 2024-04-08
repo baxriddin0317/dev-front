@@ -1,0 +1,14 @@
+#preference{
+    .accordion{
+        border: unset;
+        .accordion__item{
+            margin: 20px;
+            border: unset;
+            .accordion__button{
+                background: none;
+                color: unset;
+            }
+        }
+    }
+   
+}

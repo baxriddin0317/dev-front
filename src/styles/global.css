@@ -1,0 +1,311 @@
+iframe {
+  display: none;
+}
+
+table,
+thead {
+  border-radius: 0.25rem;
+}
+
+/* Hide scrollbar for IE and Edge */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.card {
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+#market input,
+#coins input,
+div#buyOrSell input,
+#div#exchanges input,
+input#react-select-4-input,
+input#react-select-3-input,
+input#react-select-5-input {
+  color: #3bc48d !important;
+}
+
+.actionmenu .Dropdown-control {
+  opacity: 0;
+  cursor: pointer;
+  padding: 8px 35px 8px 10px;
+}
+
+.actionmenu .Dropdown-menu {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.actionmenu {
+  position: relative;
+}
+
+.actionmenu .actiondot {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#botmenu li {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #3bc48d;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#botmenu li:last-child {
+  margin-bottom: unset;
+  background: red;
+  border: 2px solid red;
+  color: white;
+  cursor: pointer;
+}
+
+#botmenu li button,
+#botmenu li a {
+  outline: none;
+  border: none;
+}
+
+#botmenu .mb-6 {
+  margin: unset;
+}
+
+.cat {
+  margin: 4px;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cat label {
+  float: left;
+
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.cat label span {
+  text-align: center;
+  background-color: #9e9e9e;
+  display: block;
+  padding: 5px 15px;
+  font-size: 12px;
+}
+
+.cat label input {
+  position: absolute;
+  display: none;
+  color: #fff !important;
+}
+
+/* selects all of the text within the input element and changes the color of the text */
+.cat label input + span {
+  color: #fff;
+}
+
+/* This will declare how a selected input will look giving generic properties */
+.cat input:checked + span {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+.action input:checked + span {
+  background-color: #3bc48d;
+}
+
+#topmenush {
+  margin-bottom: 20px;
+}
+
+.theme-dark .highcharts-button .highcharts-button-box {
+  background: red !important;
+  fill: #1a1c23;
+}
+
+.theme-dark .highcharts-button text {
+  fill: white !important;
+}
+
+.theme-dark .highcharts-range-selector-buttons text {
+  fill: white !important;
+}
+
+.theme-dark .highcharts-axis-labels text {
+  fill: white !important;
+}
+
+.theme-dark .cardIcn2,
+.theme-dark .cardIcn1,
+.theme-dark .cardIcn3 {
+  background-color: #1a1c23;
+}
+
+#piechart .highcharts-range-selector-group {
+  display: none;
+}
+
+#piechart .highcharts-tooltip .highcharts-tooltip-header {
+  transform: translate(50%);
+}
+
+#piechart .highcharts-tooltip text {
+  fill: white !important;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+#apistatus .yes {
+  text-align: center;
+  margin: 0 auto;
+  width: 41px;
+}
+
+.no-outline {
+  outline: none !important;
+}
+
+.connectinfo {
+  position: absolute;
+  right: 10px;
+}
+
+.scrolltable {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scroll-margin: 0;
+  /* scrollbar-width: 0; */
+}
+
+.scrolltable th:nth-child(1),
+.scrolltable td:nth-child(1) {
+  position: sticky;
+  left: -2px;
+  z-index: 1;
+}
+
+/* ---------subscription-and-edit-profile--------- */
+.subsBg span {
+  text-transform: uppercase;
+  display: block;
+}
+
+.colorgreen {
+  color: #3bc48d;
+}
+
+.goPrem {
+  color: #3bc48d;
+  border-radius: 50px;
+  padding: 7px 18px;
+  margin-top: 15px;
+}
+
+.goPrem:hover {
+  background: #3bc48d;
+  color: #fff;
+}
+
+.imgCheck {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.imgCheck img {
+  width: 25px;
+  margin-right: 6px;
+}
+
+/* .editBtn {
+	width: 170px;
+} */
+
+.titleFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newBordr {
+  border: 1px solid #ccc;
+}
+
+.theme-dark .newBordr {
+  border: none;
+}
+
+.userbg {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.userbg img {
+  width: 150px;
+  display: inline;
+}
+
+.userbg input[type='file'] {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.boxshadow {
+  box-shadow: 0 0 5px #ccc;
+}
+
+.theme-dark .boxshadow {
+  box-shadow: 0 0 5px #000;
+}
+
+.togglemode {
+  outline: none;
+}
+
+.togglemode svg {
+  outline: none;
+}
+
+svg.spotdisable,
+.connectinfo {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.settingreset {
+  margin-right: 40px;
+  outline: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkbg {
+    text-align: center;
+  }
+
+  .imgCheck {
+    justify-content: center;
+  }
+}

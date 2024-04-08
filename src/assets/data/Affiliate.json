@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Manish Mandal",
+        "email": "man******@g***.c**",
+        "medium": "Link",
+        "total": 5
+    },
+    {
+        "id": 2,
+        "name": "John Cena",
+        "email": "joh******@g***.c**",
+        "medium": "Email",
+        "total": 9
+    }
+]

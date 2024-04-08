@@ -1,0 +1,16 @@
+#botsettings {
+    display: flex;
+    align-items: flex-end;
+    .formfields{
+        display: flex;
+        align-items: center;
+        input{
+            margin-right: 10px;
+        }
+        label{
+            font-size: 10px;
+            font-weight: bold;
+        }
+       
+    }
+}

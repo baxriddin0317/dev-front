@@ -1,0 +1,112 @@
+{
+  "name": "metronix",
+  "version": "0.1.0",
+  "description": "this is Metronix frontend built with react.js and tailwindcss",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
+    "@pathofdev/react-tag-input": "^1.0.7",
+    "@react-pdf/renderer": "^3.1.12",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@windmill/react-ui": "^0.5.1",
+    "assets": "^3.0.1",
+    "axios": "^1.6.0",
+    "caniuse-lite": "^1.0.30001566",
+    "components": "^0.1.0",
+    "dayjs": "^1.10.7",
+    "downshift": "^8.2.3",
+    "formik": "^2.2.9",
+    "i18n-iso-countries": "^7.4.0",
+    "js-cookie": "^3.0.1",
+    "moment": "^2.29.3",
+    "pages": "^0.0.16",
+    "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-contextmenu": "^2.14.0",
+    "react-datepicker": "^4.7.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-dropdown": "^1.10.0",
+    "react-dropzone": "^11.4.2",
+    "react-hook-form": "^7.18.0",
+    "react-icons": "^4.4.0",
+    "react-papaparse": "^3.18.1",
+    "react-qrcode-logo": "^2.7.0",
+    "react-redux": "^8.0.1",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.8.0",
+    "react-spinners": "^0.11.0",
+    "react-table": "^7.7.0",
+    "react-to-print": "^2.14.3",
+    "react-toastify": "^8.0.3",
+    "react-tooltip": "^4.2.21",
+    "react-virtualized-auto-sizer": "^1.0.20",
+    "react-window": "^1.8.9",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "store": "^2.0.12",
+    "styled-components": "^5.3.5",
+    "styles": "^0.2.1",
+    "tailwindcss": "^3.3.5",
+    "utils": "^0.3.1",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "cz": "git-cz",
+    "release": "release-it",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write .",
+    "format:css": "prettier --write '**/*.css'",
+    "format:js": "prettier --write '**/*.js'",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .js,.jsx .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "release-it": "13.6.4"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    }
+  },
+  "engines": {
+    "node": ">=16.20.2",
+    "npm": ">=8.19.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+}

@@ -1,0 +1,1330 @@
+#countlight .numero_counting_wrapper {
+  background-color: transparent;
+  margin: 0 auto 0 auto;
+  width: 250px;
+  height: 250px;
+}
+
+#countdark .numero_counting_wrapper {
+  background-color: #1a1c23;
+  margin: 0 auto 0 auto;
+  width: 250px;
+  height: 250px;
+}
+
+#countdark .mb-6,
+#countlight .mb-6 {
+  margin: unset;
+}
+
+.numero_shape {
+  position: relative;
+  background-color: #3bc48d;
+  margin: 0 auto 0 auto;
+  width: 40%;
+  height: 60%;
+  border-radius: 30px 30px 30px 30px;
+}
+
+#countlight .numero_shape:before {
+  content: ' ';
+  position: absolute;
+  top: 16.6666667%;
+  left: 25%;
+  background-color: white;
+  width: 50%;
+  height: 33.3333334%;
+
+  -o-animation-name: contagem1;
+  -o-animation-duration: 10s;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-delay: 0;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: normal;
+  -o-animation-play-state: running;
+  -o-animation-fill-mode: forwards;
+
+  animation-name: contagem1;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+#countdark .numero_shape:before {
+  content: ' ';
+  position: absolute;
+  top: 16.6666667%;
+  left: 25%;
+  background-color: #1a1c23;
+  width: 50%;
+  height: 33.3333334%;
+
+  -o-animation-name: contagem1;
+  -o-animation-duration: 10s;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-delay: 0;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: normal;
+  -o-animation-play-state: running;
+  -o-animation-fill-mode: forwards;
+
+  animation-name: contagem1;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+@keyframes contagem1 {
+  0% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  8% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  10% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  18% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  20% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  28% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  30% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 33.3333334%;
+  }
+
+  38% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 33.3333334%;
+  }
+
+  40% {
+    top: 0%;
+    left: 25%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  48% {
+    top: 0%;
+    left: 25%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  50% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  58% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  60% {
+    top: 0%;
+    left: 25%;
+    width: 50%;
+    height: 41.6666667%;
+  }
+
+  68% {
+    top: 0%;
+    left: 25%;
+    width: 50%;
+    height: 41.6666667%;
+  }
+
+  70% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  78% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  80% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  88% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  90% {
+    top: 0%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  100% {
+    top: 0%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+@-moz-keyframes contagem1 {
+  0% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  8% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  10% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  18% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  20% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  28% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  30% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 33.3333334%;
+  }
+
+  38% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 33.3333334%;
+  }
+
+  40% {
+    top: 0%;
+    left: 25%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  48% {
+    top: 0%;
+    left: 25%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  50% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  58% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  60% {
+    top: 0%;
+    left: 25%;
+    width: 50%;
+    height: 41.6666667%;
+  }
+
+  68% {
+    top: 0%;
+    left: 25%;
+    width: 50%;
+    height: 41.6666667%;
+  }
+
+  70% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  78% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  80% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  88% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  90% {
+    top: 0%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  100% {
+    top: 0%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+@-o-keyframes contagem1 {
+  0% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  8% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  10% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  18% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  20% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  28% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  30% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 33.3333334%;
+  }
+
+  38% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 33.3333334%;
+  }
+
+  40% {
+    top: 0%;
+    left: 25%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  48% {
+    top: 0%;
+    left: 25%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  50% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  58% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  60% {
+    top: 0%;
+    left: 25%;
+    width: 50%;
+    height: 41.6666667%;
+  }
+
+  68% {
+    top: 0%;
+    left: 25%;
+    width: 50%;
+    height: 41.6666667%;
+  }
+
+  70% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  78% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  80% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  88% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  90% {
+    top: 0%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  100% {
+    top: 0%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+@keyframes contagem1 {
+  0% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  8% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  10% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  18% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  20% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  28% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  30% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 33.3333334%;
+  }
+
+  38% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 33.3333334%;
+  }
+
+  40% {
+    top: 0%;
+    left: 25%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  48% {
+    top: 0%;
+    left: 25%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  50% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  58% {
+    top: 16.6666667%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  60% {
+    top: 0%;
+    left: 25%;
+    width: 50%;
+    height: 41.6666667%;
+  }
+
+  68% {
+    top: 0%;
+    left: 25%;
+    width: 50%;
+    height: 41.6666667%;
+  }
+
+  70% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  78% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  80% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  88% {
+    top: 16.6666667%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  90% {
+    top: 0%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  100% {
+    top: 0%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+#countlight .numero_shape:after {
+  content: ' ';
+  position: absolute;
+  top: 58.3333333%;
+  left: 25%;
+  background-color: white;
+  width: 50%;
+  height: 33.3333334%;
+
+  -o-animation-name: contagem2;
+  -o-animation-duration: 10s;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-delay: 0;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: normal;
+  -o-animation-play-state: running;
+  -o-animation-fill-mode: forwards;
+
+  animation-name: contagem2;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+#countdark .numero_shape:after {
+  content: ' ';
+  position: absolute;
+  top: 58.3333333%;
+  left: 25%;
+  background-color: #1a1c23;
+  width: 50%;
+  height: 33.3333334%;
+
+  -o-animation-name: contagem2;
+  -o-animation-duration: 10s;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-delay: 0;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: normal;
+  -o-animation-play-state: running;
+  -o-animation-fill-mode: forwards;
+
+  animation-name: contagem2;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+@keyframes contagem2 {
+  0% {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  8% {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  10% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  18% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  20% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  28% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  30% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  38% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  40% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  48% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  50% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  58% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  60% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  68% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  70% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  78% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  80% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  88% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  90% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  100% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+@-moz-keyframes contagem2 {
+  0% {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  8% {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  10% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  18% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  20% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  28% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  30% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  38% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  40% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  48% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  50% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  58% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  60% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  68% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  70% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  78% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  80% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  88% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  90% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  100% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+@-o-keyframes contagem2 {
+  0% {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  8% {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  10% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  18% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  20% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  28% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  30% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  38% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  40% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  48% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  50% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  58% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  60% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  68% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  70% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  78% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  80% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  88% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  90% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  100% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+@keyframes contagem2 {
+  0% {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  8% {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 33.3333334%;
+  }
+
+  10% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  18% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  20% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  28% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  30% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  38% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  40% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  48% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+  }
+
+  50% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  58% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  60% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  68% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 41.6666667%;
+  }
+
+  70% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  78% {
+    top: 58.3333333%;
+    left: 0%;
+    width: 75%;
+    height: 25%;
+  }
+
+  80% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  88% {
+    top: 58.3333333%;
+    left: 25%;
+    width: 75%;
+    height: 25%;
+  }
+
+  90% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+
+  100% {
+    top: 50%;
+    left: 0%;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+.modal-confirm {
+  color: #d1d5db;
+}
+
+.modal-confirm .icon-box {
+  margin: 0 auto;
+  border-radius: 50%;
+  z-index: 9;
+  border: 3px solid #e02424;
+}
+
+.modal-confirm .icon-box svg {
+  color: #e02424;
+  font-size: 46px;
+  display: inline-block;
+  margin-top: 13px;
+}
+
+.modal-confirm h4 {
+  text-align: center;
+  font-size: 26px;
+  margin: 30px;
+}
+
+.modal-confirm p {
+  text-align: center;
+  font-size: 16px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* .deletefooter {
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.deletefooter button {
+	outline: unset;
+} */
+
+.successimg {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#countsuccess {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#countsuccess a {
+  margin-top: 20px;
+  outline: none;
+}
