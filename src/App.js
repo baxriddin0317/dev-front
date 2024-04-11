@@ -24,7 +24,7 @@ function App() {
       <ToastContainer />
       <Router>
         <AccessibleNavigationAnnouncer />
-        <ProtectedAuth isLoggedIn={isLoggedIn}>
+        <ProtectedAuth isLoggedIn={!isLoggedIn}>
           <Route exact exactly path="/signup/:refcode?">
             <SignUp />
           </Route>
@@ -38,7 +38,7 @@ function App() {
             <ResetPassword />
           </Route>
         </ProtectedAuth>
-        <ProtectedRoutes isLoggedIn={isLoggedIn}>
+        <ProtectedRoutes isLoggedIn={!isLoggedIn}>
           <Switch>
             <Route path="/" component={Layout} />
           </Switch>

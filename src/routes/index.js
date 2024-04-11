@@ -21,6 +21,7 @@ const Security = lazy(() => import('../pages/Security'));
 const Affiliate = lazy(() => import('../pages/Affiliate'));
 const Auth2fa = lazy(() => import('../pages/Auth2fa'));
 const Contest = lazy(() => import('../pages/Contest'));
+const Withdraw = lazy(() => import('../pages/Withdraw'));
 
 /*
 //  * ⚠ These are internal routes!
@@ -115,6 +116,10 @@ const routes = [
   {
     path: '/contest',
     component: Contest,
+  },
+  {
+    path: '/withdraw',
+    component: Withdraw,
   },
 ];
 

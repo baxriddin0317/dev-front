@@ -126,7 +126,7 @@ function Header() {
               className="rounded-full dark:bg-gray-500 bg-green-100 text-white h-8 w-8 font-medium mx-auto focus:gray-900 dark:focus:ring-white"
               onClick={handleProfileOpen}
             >
-              {adminInfo.image ? (
+              {adminInfo?.image ? (
                 <Avatar
                   className="align-middle"
                   src={`${adminInfo.image}`}
