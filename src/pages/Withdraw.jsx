@@ -27,7 +27,7 @@ function Withdraw() {
       setTimelineStep(3);
   };
   return (
-    <div className="w-full mb-[1rem] sm:w-full dark:border-gray-400 rounded-lg ring-opacity-5">
+    <div className="w-full mb-[1rem] xxl:pl-10 sm:w-full dark:border-gray-400 rounded-lg ring-opacity-5">
       <PageTitle>Withdraw</PageTitle>
       <div className="grid md:grid-cols-2 gap-4 lg:gap-8">
         <div className="flex items-start gap-3">
